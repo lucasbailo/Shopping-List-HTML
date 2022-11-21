@@ -1,0 +1,50 @@
+body {
+  background-color: grey;
+}
+.cabecalho,h2 {
+  text-align: center;
+  color: white;
+  font-family: 'Verdana',sans-serif;
+  font-size: 22px
+}
+
+button {
+  margin-top: 25px;
+}
+
+p, label {
+  color: white;
+  font-family: 'Verdana',sans-serif;
+  font-size: 14px;
+  margin: 10px 0px 0px 0px;
+}
+
+.section {
+  display: flex;
+  flex-direction: column; 
+  align-items: center;
+}
+
+.box {
+  display: flexbox;
+  width: 250px;
+  background-color: #1D1E22;
+  padding: 25px;
+  flex-direction: column;
+  border-radius: 5px;
+  border: solid 1px #CCCCCC;
+}
+
+.box input {
+  width: 100%
+}
+
+#shopping-list div input {
+  display: flex;
+  flex-wrap: wrap;
+  flex-basis: 10%;
+}
+
+#shopping-list h2 label {
+  flex-basis: 80%; 
+}
